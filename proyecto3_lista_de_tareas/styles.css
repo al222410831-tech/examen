@@ -1,0 +1,68 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    margin: 0;
+    padding: 30px 15px;
+}
+
+.contenedor {
+    max-width: 500px;
+    margin: auto;
+    padding: 25px;
+    background: white;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    gap: 8px;
+}
+
+input {
+    flex: 1;
+    min-width: 0;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #2878d0;
+    color: white;
+    cursor: pointer;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 10px 0;
+    padding: 10px;
+    background: #eeeeee;
+    border-radius: 5px;
+}
+
+.descripcion-tarea {
+    flex: 1;
+    overflow-wrap: anywhere;
+}
+
+.completada .descripcion-tarea {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.eliminar {
+    background: #d93636;
+}

@@ -1,0 +1,57 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f0fe;
+    text-align: center;
+    padding: 40px 15px;
+}
+
+.contenedor {
+    background-color: white;
+    max-width: 400px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+h1 {
+    color: #2457a7;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    text-align: left;
+}
+
+input, select {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #2457a7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
+
+#resultado {
+    color: #16803c;
+}
+
+#mensaje {
+    color: red;
+}

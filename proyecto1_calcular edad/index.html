@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Edad</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="contenedor">
+        <h1>Calculadora de Edad</h1>
+
+        <p>Selecciona tu fecha de nacimiento:</p>
+
+        <div class="fecha">
+            <select id="dia">
+                <option value="">Día</option>
+            </select>
+
+            <select id="mes">
+                <option value="">Mes</option>
+                <option value="1">Enero</option>
+                <option value="2">Febrero</option>
+                <option value="3">Marzo</option>
+                <option value="4">Abril</option>
+                <option value="5">Mayo</option>
+                <option value="6">Junio</option>
+                <option value="7">Julio</option>
+                <option value="8">Agosto</option>
+                <option value="9">Septiembre</option>
+                <option value="10">Octubre</option>
+                <option value="11">Noviembre</option>
+                <option value="12">Diciembre</option>
+            </select>
+
+            <select id="anio">
+                <option value="">Año</option>
+            </select>
+        </div>
+
+        <button id="calcular">Calcular edad</button>
+
+        <p id="mensaje"></p>
+        <h2 id="resultado"></h2>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
